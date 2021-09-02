@@ -1,0 +1,285 @@
+.single-my-account .myaccount-info-wrapper .billing-info {
+  margin-bottom: 20px;
+  margin-top: 3rem;
+}
+.single-my-account .myaccount-info-wrapper .billing-info label {
+  color: #000;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.single-my-account .myaccount-info-wrapper .billing-info input {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid black;
+  color: #000;
+  height: 40px;
+  padding: 0 15px;
+}
+
+.single-my-account .myaccount-info-wrapper .billing-back-btn .billing-back a {
+  color: #000;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.single-my-account
+  .myaccount-info-wrapper
+  .billing-back-btn
+  .billing-back
+  a:hover {
+  color: #2da397;
+}
+.single-my-account .myaccount-info-wrapper .billing-back-btn .billing-back a i {
+  font-size: 16px;
+  color: #a749ff;
+}
+.single-my-account
+  .myaccount-info-wrapper
+  .billing-back-btn
+  .billing-btn
+  button {
+  background-color: #f2f2f2;
+  border: medium none;
+  color: #000;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 16px 35px 17px;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.single-my-account
+  .myaccount-info-wrapper
+  .billing-back-btn
+  .billing-btn
+  button:hover {
+  background: #a749ff;
+  color: #fff;
+}
+.single-my-account {
+  margin-bottom: 20px;
+  border: 1px solid #ebebeb;
+}
+.single-my-account h3.panel-title {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ebebeb;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  position: relative;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 767px) {
+  .single-my-account h3.panel-title {
+    line-height: 22px;
+    font-size: 14px;
+  }
+}
+.single-my-account h3.panel-title span {
+  color: #242424;
+  font-size: 15px;
+  left: 20px;
+  position: absolute;
+  top: 16px;
+}
+.single-my-account h3.panel-title a {
+  color: #2da397;
+  display: block;
+  padding: 16px 55px;
+  position: relative;
+  background-color: #242424;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .single-my-account h3.panel-title a {
+    padding: 16px 30px 16px 40px;
+  }
+}
+.single-my-account h3.panel-title a:hover {
+  color: white;
+}
+.single-my-account h3.panel-title a::before {
+  color: #000;
+  content: "\f107";
+  display: inline-block;
+  font-family: "FontAwesome";
+  font-size: 16px;
+  position: absolute;
+  right: 10px;
+  top: 19px;
+}
+.single-my-account h3.panel-title a:hover::before {
+  color: #a749ff;
+}
+.single-my-account .myaccount-info-wrapper {
+  padding: 30px 20px;
+  background-color: #fff;
+}
+.single-my-account .myaccount-info-wrapper .account-info-wrapper {
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 28px;
+  padding-bottom: 30px;
+}
+.single-my-account .myaccount-info-wrapper .account-info-wrapper h4 {
+  font-size: 15px;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.single-my-account .myaccount-info-wrapper .account-info-wrapper h5 {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  margin-top: 7px;
+}
+.single-my-account .myaccount-info-wrapper .billing-info {
+  margin-bottom: 20px;
+  margin-right: 19rem;
+}
+.checkout {
+  margin-top: 5rem;
+  margin-bottom: 50rem;
+}
+.single-my-account .myaccount-info-wrapper .billing-info label {
+  color: #000;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.single-my-account .myaccount-info-wrapper .billing-info input {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid black;
+  color: #000;
+  height: 40px;
+  padding: 0 15px;
+}
+.single-my-account .myaccount-info-wrapper .billing-back-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 26px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.single-my-account .myaccount-info-wrapper .billing-back-btn .billing-back a {
+  color: #000;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.single-my-account
+  .myaccount-info-wrapper
+  .billing-back-btn
+  .billing-back
+  a:hover {
+  color: #2da397;
+}
+.single-my-account .myaccount-info-wrapper .billing-back-btn .billing-back a i {
+  font-size: 16px;
+  color: black;
+}
+.single-my-account
+  .myaccount-info-wrapper
+  .billing-back-btn
+  .billing-btn
+  button {
+  background-color: #f2f2f2;
+  border: medium none;
+  color: #000;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 16px 35px 17px;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.single-my-account
+  .myaccount-info-wrapper
+  .billing-back-btn
+  .billing-btn
+  button:hover {
+  background: #2da397;
+  color: #fff;
+}
+.single-my-account .myaccount-info-wrapper .entries-wrapper {
+  border: 1px solid #eaeaea;
+  position: relative;
+}
+@media only screen and (max-width: 767px) {
+  .single-my-account .myaccount-info-wrapper .entries-wrapper {
+    padding: 30px 10px;
+  }
+  .single-my-account .myaccount-info-wrapper .entries-wrapper::before {
+    display: none;
+  }
+}
+.single-my-account .myaccount-info-wrapper .entries-wrapper::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 1px;
+  left: 50%;
+  top: 0;
+  background-color: #eaeaea;
+}
+.single-my-account .myaccount-info-wrapper .entries-wrapper .entries-info {
+  padding: 30px 20px;
+}
+@media only screen and (max-width: 767px) {
+  .single-my-account .myaccount-info-wrapper .entries-wrapper .entries-info {
+    padding: 0 10px 30px;
+  }
+}
+.single-my-account .myaccount-info-wrapper .entries-wrapper .entries-info p {
+  color: #000;
+  font-size: 15px;
+  margin: 0;
+  text-transform: capitalize;
+}
+.single-my-account
+  .myaccount-info-wrapper
+  .entries-wrapper
+  .entries-edit-delete
+  a {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  line-height: 1;
+  margin: 0 2px;
+  padding: 12px 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.single-my-account
+  .myaccount-info-wrapper
+  .entries-wrapper
+  .entries-edit-delete
+  a:hover {
+  background-color: #a749ff;
+}
+.single-my-account
+  .myaccount-info-wrapper
+  .entries-wrapper
+  .entries-edit-delete
+  a.edit {
+  background-color: #df5c39;
+}
+.single-my-account
+  .myaccount-info-wrapper
+  .entries-wrapper
+  .entries-edit-delete
+  a.edit:hover {
+  background-color: #a749ff;
+}

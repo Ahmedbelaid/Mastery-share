@@ -1,0 +1,19 @@
+.test {
+  height: 20rem;
+  width: 27rem;
+  margin-left: 45rem;
+  margin-right: 3rem;
+}
+.title {
+  padding-left: 13rem !important;
+  padding-top: 10rem;
+  margin-right: -1rem !important;
+  margin-bottom: -8rem !important;
+  font-size: 3rem;
+}
+.bestminds {
+  background-color: #f1f1f1;
+}
+.cta-one__btn-block {
+  margin-top: 13rem;
+}

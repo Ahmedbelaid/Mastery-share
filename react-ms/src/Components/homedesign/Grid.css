@@ -1,0 +1,106 @@
+.about-two {
+  background-color: #242424;
+}
+.wallpaper {
+  height: 25rem;
+  width: 40rem;
+  margin-left: 40rem;
+  margin-top: -23rem;
+}
+
+.about-two .block-title {
+  margin-bottom: 50px;
+}
+.about-two__text {
+  margin: 0;
+  font-size: 20px;
+  line-height: 36px;
+  color: white;
+}
+.about-two__text1 {
+  padding-top: 20px;
+  margin: 40px;
+  font-size: 50px;
+  color: white;
+}
+.about-two .thm-btn {
+  padding: 21.5px 68px;
+}
+.about-two .thm-btn:hover {
+  background-color: white;
+  color: #fff;
+}
+.about-two__single {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 50%;
+  flex: 1 1 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 20px;
+  border-radius: 2px;
+  border: black;
+  padding-right: 20px;
+}
+.about-two__single-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+.about-two__single-text {
+  color: #2da397;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+.about-two__single i {
+  color: #2da397;
+  font-size: 64px;
+  margin-right: 14px;
+}
+.about-two__image {
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+}
+.about-two__image:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 20px solid #fff;
+  z-index: 11;
+}
+.about-two__image:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  border: 3px solid #f16101;
+  border-radius: 50%;
+}
+
+.about-two__image-dots {
+  width: 197px;
+  height: 268px;
+  position: absolute;
+  top: 0%;
+  left: calc(100% - 60px);
+  background-image: url("./tea.jpg");
+}

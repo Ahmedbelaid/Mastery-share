@@ -1,0 +1,248 @@
+.team-one {
+  padding-bottom: 90px;
+  padding-top: 120px;
+  background-color: #f1f1f1;
+  box-sizing: none i !important;
+  margin-top: 5rem;
+}
+
+.team-one__single {
+  margin-bottom: 30px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  padding-bottom: 2rem;
+}
+.team-one__single:hover {
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.team-one__single:hover .team-one__image > img {
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+}
+.team-one__image {
+  text-align: center;
+  margin-bottom: -103px;
+}
+.team-one__image img {
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  height: 4cm;
+  border-radius: 10%;
+}
+.team-one__content {
+  text-align: center;
+  border: 2px solid #2da397;
+  padding-bottom: 30px;
+  padding-top: 135px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.TB {
+  padding-left: 30rem;
+  padding-bottom: 3rem;
+}
+.block-title__title {
+  padding-bottom: 4rem;
+  margin-top: -6rem;
+}
+
+.team-one__social {
+  background-color: #2da397;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+}
+.team-one__social a {
+  font-size: 14px;
+  color: black;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.team-one__social a:hover {
+  color: black;
+}
+.team-one__social a + a {
+  margin-left: 28px;
+}
+
+.team-one__name {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  margin: 0;
+  margin-bottom: -5px;
+}
+.team-one__name a {
+  color: inherit;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.team-one__name a:hover {
+  color: #f16101;
+}
+
+.team-one__designation {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #81868a;
+  letter-spacing: 0.2em;
+  line-height: 1em;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.team-one__text {
+  margin: 0;
+  font-size: 14px;
+  color: #81868a;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: -10px;
+}
+
+.team-details {
+  padding-top: 120px;
+  padding-bottom: 200px;
+}
+.team-details .team-one__image {
+  margin-bottom: 0;
+}
+.team-details .team-one__image img {
+  border-radius: 0;
+  height: 12cm;
+}
+.team-details .team-one__content {
+  padding-top: 30px;
+}
+.team-details .team-one__designation {
+  margin-bottom: 0;
+}
+.team-details__title {
+  margin: 0;
+  color: #012237;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.become-teacher {
+  padding-top: 120px;
+}
+
+.become-teacher__form {
+  padding-left: 70px;
+  position: relative;
+}
+.become-teacher__form:before {
+  content: "";
+  width: 197px;
+  height: 268px;
+  background-color: blue;
+  position: absolute;
+  bottom: -11%;
+  left: 87%;
+  z-index: -1;
+}
+.become-teacher__form-top {
+  background-color: #2da397;
+  padding-left: 60px;
+  position: relative;
+}
+
+.become-teacher__form-title {
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 29px 0;
+}
+.become-teacher__form-content {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f1f1f1;
+  background-color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  padding-bottom: 60px;
+}
+.become-teacher__form input {
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 77px;
+  font-size: 16px;
+  color: #81868a;
+  font-weight: 500;
+  padding-left: 40px;
+  display: block;
+  margin-bottom: 10px;
+}
+.become-teacher__form input::-webkit-input-placeholder {
+  color: #81868a;
+}
+.become-teacher__form input::-moz-placeholder {
+  color: #81868a;
+}
+.become-teacher__form input:-ms-input-placeholder {
+  color: #81868a;
+}
+.become-teacher__form input:-moz-placeholder {
+  color: #81868a;
+}
+.become-teacher__form label {
+  display: block;
+}
+.become-teacher__form-btn {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  padding: 21.5px 58px;
+  background-color: #2da397;
+}
+.become-teacher__form-btn:hover {
+  background-color: white;
+  color: #242424;
+}
+
+.become-teacher__title {
+  margin: 0;
+  color: #012237;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.become-teacher__subtitle {
+  font-size: 20px;
+  color: #012237;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.become-teacher__text {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 500;
+  color: black;
+  margin: 0;
+}

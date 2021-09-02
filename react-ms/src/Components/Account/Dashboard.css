@@ -1,0 +1,20 @@
+.carousa {
+  height: 50rem;
+  width: 50rem;
+  margin-left: 23rem;
+  margin-top: 5rem;
+}
+.lkol {
+  background: rgb(36, 36, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(36, 36, 36, 1) 12%,
+    rgba(45, 163, 151, 1) 78%
+  );
+}
+.carousel-indicators {
+  margin-bottom: 15rem !important;
+}
+.w-100 {
+  border-radius: 2rem;
+}

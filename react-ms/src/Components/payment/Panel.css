@@ -1,0 +1,8 @@
+.dropdown {
+  width: 0rem;
+
+  padding-bottom: 1rem;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: aquamarine !important;
+}

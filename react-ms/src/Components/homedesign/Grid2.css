@@ -1,0 +1,56 @@
+.cta-one {
+  padding-top: 101.5px;
+  padding-bottom: 101.5px;
+}
+
+.cta-one__title {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-top: -10px;
+  margin-right: 3rem !important;
+  height: 3rem;
+}
+
+.cta-one__btn {
+  font-size: 16px;
+  color: #fff;
+  background-color: black;
+  padding: 21.5px 47.5px;
+}
+
+.cta-one__home-one {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+  padding-top: 121px;
+  padding-bottom: 121px;
+  background-image: url("./eat.jpg");
+  height: 12cm;
+}
+.cta-one__home-one::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #242424;
+  opacity: 0.9;
+  height: 12cm;
+}
+.cta-one__home-one .container {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+.cta-one__home-one .cta-one__title {
+  font-size: 3rem;
+  margin-bottom: 60px;
+}

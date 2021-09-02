@@ -1,0 +1,47 @@
+.home-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  background-image: url("./eat.jpg") !important;
+}
+
+p {
+  font-size: large;
+}
+h1 {
+  color: white;
+  font-size: 1cm;
+}
+p {
+  font-size: 0.5cm;
+  color: white;
+}
+
+.container {
+  height: 490px;
+}
+.container-bottom {
+  height: 500px !important;
+}
+.block-title mb-0 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.block-title__title {
+  font-size: 3rem;
+}
+.link {
+  background-color: #66cdaa;
+  color: black;
+  padding: 8px 20px 20px 20px;
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  transition: all 0.3s east-out;
+  padding: 11px 13px 20px;
+  font-size: 20px;
+  margin: 0px 12px 0px 0px;
+}
